@@ -1,0 +1,18 @@
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    margin:  0 auto;
+    background-color: var(--backgroundFF);
+}
+
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1em, 0;
+  border-radius: #f8f8f8;
+
+
+}

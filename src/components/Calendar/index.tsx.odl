@@ -1,0 +1,26 @@
+import { Calendar, momentLocalizer, Views } from 'react-big-calendar'
+import moment from 'moment'
+import { events } from './data'
+
+const localizer = momentLocalizer(moment)
+
+
+
+export const MyCalendar = (props: any) => {
+
+  let allViews = Object.keys(Views).map(k => Views[k])
+
+  return (
+    <div >
+        <Calendar
+        events={events}
+        views={allViews}
+        step={60}
+        showMultiDayTimes
+        max={dates.add(dates.endOf(new Date(2015, 17, 1), 'day'), -1, 'hours')}
+        defaultDate={new Date(2015, 3, 1)}
+        localizer={localizer}
+      />
+    </div>
+  )
+}

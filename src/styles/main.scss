@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --white:#fff;
+
+  --gray-line: #DCDDE0;
+  --text: #666666;
+  --text-highlight: #B3B9FF;
+  --title: #2e384d;
+  --red: #e83f5b;
+  --green:#4cd62b;
+  --blue: #5965e0;
+  --blue-dark: #4953b8;
+  --blue-twitter: #2aa9e0;
+
+  --primary: #A94591;
+  --secondary: #6C63FF;
+  --backgroundFF: #F0F0F5;
+  --white: #fff;
+
+  --RED: #EB5757;
+  --ORANGE: #F2994A;
+  --YELLOW: #F2C94C;
+  --GREEN3: #6FCF97;
+  --GREEN2: #27AE60;
+  --GREEN1: #219653;
+  --BLUE2: #2D9CDB;
+  --BLUE1: #2F80ED;
+  --BLUE:  #4368C7;
+  --GRAY6: #F2F2F2;
+  --GRAY5: #E0E0E0;
+  --GRAY4: #BDBDBD;
+  --GRAY3: #828282;
+  --GRAY2: #4F4F4F;
+  --GRAY1: #333333;
+
+  --PINK: #D71CDB;
+  --PURPLE2: #BB6BD9;
+  --PURPLE1: #9B51E0;
+  --PURPLE: #9038FF;
+  --PURPLEDARK1: #6E34B8;
+  --PURPLEDARK2: #5B259F;
+  --PURPLEDARK3: #2F1155;
+
+  --TONE: #E6E3D6;
+  --AVATAR: #E0E0E0;
+  --BACKGROUNDDARK: #312e38;
+}
+
+
+@media(max-width: 1080px){
+  html{
+      font-size: 93.75%;
+  }
+}
+
+@media(max-width: 720px){
+
+  html{
+      font-size: 87.5%;
+  }
+}
+
+body{
+  background-color: #f8f8f8;
+  color: var(--text);
+}
+
+body, input, textarea, button{
+  font: 400 1rem "Poppins", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.img_index {
+  z-index: -1;
+}

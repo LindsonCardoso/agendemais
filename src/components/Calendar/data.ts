@@ -1,0 +1,191 @@
+export const events = [
+  {
+    id: 0,
+    title: 'All Day Event very long title',
+    allDay: true,
+    start: new Date(2022, 9, 18, 15, 0, 0),
+    end: new Date(2022, 9, 18, 16, 0, 0),
+  },
+  {
+    id: 1,
+    title: 'Long Event',
+    start: new Date(2022, 9, 19),
+    end: new Date(2022, 9, 19),
+  },
+
+  {
+    id: 2,
+    title: 'DTS STARTS',
+    start: new Date(2016, 2, 13, 0, 0, 0),
+    end: new Date(2016, 2, 20, 0, 0, 0),
+  },
+
+  {
+    id: 3,
+    title: 'DTS ENDS',
+    start: new Date(2016, 10, 6, 0, 0, 0),
+    end: new Date(2016, 10, 13, 0, 0, 0),
+  },
+
+  {
+    id: 4,
+    title: 'Some Event',
+    start: new Date(2015, 3, 9, 0, 0, 0),
+    end: new Date(2015, 3, 10, 0, 0, 0),
+  },
+  {
+    id: 5,
+    title: 'Conference',
+    start: new Date(2015, 3, 11),
+    end: new Date(2015, 3, 13),
+    desc: 'Big conference for important people',
+  },
+  {
+    id: 6,
+    title: 'Meeting',
+    start: new Date(2015, 3, 12, 10, 30, 0, 0),
+    end: new Date(2015, 3, 12, 12, 30, 0, 0),
+    desc: 'Pre-meeting meeting, to prepare for the meeting',
+  },
+  {
+    id: 7,
+    title: 'Lunch',
+    start: new Date(2015, 3, 12, 12, 0, 0, 0),
+    end: new Date(2015, 3, 12, 13, 0, 0, 0),
+    desc: 'Power lunch',
+  }
+];
+export const data = [{
+  text: 'Google AdWords Strategy',
+  startDate: new Date('2021-05-03T16:00:00.000Z'),
+  endDate: new Date('2021-05-03T17:30:00.000Z'),
+  assigneeId: 3,
+  priorityId: 1,
+}, {
+  text: 'New Brochures',
+  startDate: new Date('2021-05-03T18:30:00.000Z'),
+  endDate: new Date('2021-05-03T21:15:00.000Z'),
+  assigneeId: 1,
+  priorityId: 1,
+}, {
+  text: 'Brochure Design Review',
+  startDate: new Date('2021-05-03T20:15:00.000Z'),
+  endDate: new Date('2021-05-03T23:15:00.000Z'),
+  assigneeId: 2,
+  priorityId: 2,
+}, {
+  text: 'Website Re-Design Plan',
+  startDate: new Date('2021-05-03T23:45:00.000Z'),
+  endDate: new Date('2021-05-04T18:15:00.000Z'),
+  assigneeId: 3,
+  priorityId: 1,
+}, {
+  text: 'Rollout of New Website and Marketing Brochures',
+  startDate: new Date('2021-05-04T15:15:00.000Z'),
+  endDate: new Date('2021-05-04T17:45:00.000Z'),
+  assigneeId: 4,
+  priorityId: 2,
+}, {
+  text: 'Update Sales Strategy Documents',
+  startDate: new Date('2021-05-04T19:00:00.000Z'),
+  endDate: new Date('2021-05-04T20:45:00.000Z'),
+  assigneeId: 1,
+  priorityId: 2,
+}, {
+  text: 'Non-Compete Agreements',
+  startDate: new Date('2021-05-05T15:15:00.000Z'),
+  endDate: new Date('2021-05-05T16:00:00.000Z'),
+  assigneeId: 1,
+  priorityId: 1,
+}, {
+  text: 'Approve Hiring of John Jeffers',
+  startDate: new Date('2021-05-05T17:00:00.000Z'),
+  endDate: new Date('2021-05-05T18:15:00.000Z'),
+  assigneeId: 2,
+  priorityId: 2,
+}, {
+  text: 'Update NDA Agreement',
+  startDate: new Date('2021-05-05T18:45:00.000Z'),
+  endDate: new Date('2021-05-05T20:45:00.000Z'),
+  assigneeId: 3,
+  priorityId: 1,
+}, {
+  text: 'Update Employee Files with New NDA',
+  startDate: new Date('2021-05-05T21:00:00.000Z'),
+  endDate: new Date('2021-05-05T23:45:00.000Z'),
+  assigneeId: 4,
+  priorityId: 1,
+}, {
+  text: 'Submit Questions Regarding New NDA',
+  startDate: new Date('2021-05-07T01:00:00.000Z'),
+  endDate: new Date('2021-05-06T16:30:00.000Z'),
+  assigneeId: 1,
+  priorityId: 1,
+}, {
+  text: 'Submit Signed NDA',
+  startDate: new Date('2021-05-06T19:45:00.000Z'),
+  endDate: new Date('2021-05-06T21:00:00.000Z'),
+  assigneeId: 1,
+  priorityId: 2,
+}, {
+  text: 'Review Revenue Projections',
+  startDate: new Date('2021-05-07T00:15:00.000Z'),
+  endDate: new Date('2021-05-06T15:00:00.000Z'),
+  assigneeId: 3,
+  priorityId: 1,
+}, {
+  text: 'Comment on Revenue Projections',
+  startDate: new Date('2021-05-07T16:15:00.000Z'),
+  endDate: new Date('2021-05-07T18:15:00.000Z'),
+  assigneeId: 3,
+  priorityId: 2,
+}, {
+  text: 'Provide New Health Insurance Docs',
+  startDate: new Date('2021-05-07T19:45:00.000Z'),
+  endDate: new Date('2021-05-07T21:15:00.000Z'),
+  assigneeId: 3,
+  priorityId: 2,
+}, {
+  text: 'Review Changes to Health Insurance Coverage',
+  startDate: new Date('2021-05-07T21:15:00.000Z'),
+  endDate: new Date('2021-05-07T22:30:00.000Z'),
+  assigneeId: 3,
+  priorityId: 2,
+}, {
+  text: 'Review Training Course for any Omissions',
+  startDate: new Date('2021-05-10T21:00:00.000Z'),
+  endDate: new Date('2021-05-11T19:00:00.000Z'),
+  assigneeId: 1,
+  priorityId: 1,
+}, {
+  text: 'Recall Rebate Form',
+  startDate: new Date('2021-05-10T19:45:00.000Z'),
+  endDate: new Date('2021-05-10T20:15:00.000Z'),
+  assigneeId: 3,
+  priorityId: 1,
+}, {
+  text: 'Create Report on Customer Feedback',
+  startDate: new Date('2021-05-11T22:15:00.000Z'),
+  endDate: new Date('2021-05-12T00:30:00.000Z'),
+  assigneeId: 2,
+  priorityId: 2,
+}, {
+  text: 'Review Customer Feedback Report',
+  startDate: new Date('2021-05-11T23:15:00.000Z'),
+  endDate: new Date('2021-05-12T01:30:00.000Z'),
+  assigneeId: 2,
+  priorityId: 1,
+}, {
+  text: 'Customer Feedback Report Analysis',
+  startDate: new Date('2021-05-12T16:30:00.000Z'),
+  endDate: new Date('2021-05-12T17:30:00.000Z'),
+  recurrenceRule: 'FREQ=WEEKLY',
+  assigneeId: 4,
+  priorityId: 2,
+}, {
+  text: 'Prepare Shipping Cost Analysis Report',
+  startDate: new Date('2021-05-12T19:30:00.000Z'),
+  endDate: new Date('2021-05-12T20:30:00.000Z'),
+  assigneeId: 1,
+  priorityId: 1,
+}, ];
